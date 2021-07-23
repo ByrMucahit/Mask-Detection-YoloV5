@@ -1,0 +1,10 @@
+
+
+train: C:/Users/Shazzer/Desktop/dataset/images/train  # 128 images
+val: C:/Users/Shazzer/Desktop/dataset/images/valid  # 128 images
+
+# number of classes
+nc: 2
+
+# class names
+names: ['no_mask' , 'mask']
