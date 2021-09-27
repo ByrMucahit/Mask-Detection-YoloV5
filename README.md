@@ -51,13 +51,34 @@ results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
                             'https://youtu.be/NUsoVlDFqZg'  # YouTube
                             'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream</code></pre>
  ### Training
- ![F1_curve](https://user-images.githubusercontent.com/62469567/134886728-2bafb848-39ac-4ed7-b01b-fcfd9c4078c0.png)
-![P_curve](https://user-images.githubusercontent.com/62469567/134886762-785656b7-0344-412a-990a-c3041a742dbe.png)
-![PR_curve](https://user-images.githubusercontent.com/62469567/134886789-8415186d-71ea-430f-b481-6b26e32211da.png)
-![R_curve](https://user-images.githubusercontent.com/62469567/134886817-1e84d987-24a3-4523-93dd-e10609767f0c.png)
+![confusion_matrix](https://user-images.githubusercontent.com/62469567/134887027-3f80eb9a-f22c-421b-8f7a-f0e48fd200df.png)
+![F1_curve](https://user-images.githubusercontent.com/62469567/134887057-3c08f604-3da1-44bd-a518-6f8b5dc68603.png)
+![P_curve](https://user-images.githubusercontent.com/62469567/134887093-2cc398be-03db-45a1-a945-25216f07a526.png)
+![PR_curve](https://user-images.githubusercontent.com/62469567/134887119-0a3a9939-815d-4d41-ba61-e35ff9810c80.png)
+![R_curve](https://user-images.githubusercontent.com/62469567/134887144-5b110ade-9307-4c15-bfbf-e478ae392a1a.png)
+
+### Batch
+![train_batch0](https://user-images.githubusercontent.com/62469567/134887223-40b6fe17-1c3d-4916-b9b5-92ea8c464cd2.jpg)
+![train_batch1](https://user-images.githubusercontent.com/62469567/134887252-d64ce6df-0ee0-4d39-ad7d-6c3096c367b9.jpg)
+![train_batch2](https://user-images.githubusercontent.com/62469567/134887273-6143cf6d-d3ef-4d12-9dbe-d6f99dfaadb3.jpg)
+
+### Validation
+![val_batch0_labels](https://user-images.githubusercontent.com/62469567/134887362-4b6f34d2-c656-4ec6-a9c7-a72ba7158f8b.jpg)
+![val_batch0_pred](https://user-images.githubusercontent.com/62469567/134887390-e91fe581-0eb6-4065-992e-f75390f4a331.jpg)
+![val_batch1_labels](https://user-images.githubusercontent.com/62469567/134887411-965115d4-8124-4b27-abad-1087a1fccab0.jpg)
+![val_batch1_pred](https://user-images.githubusercontent.com/62469567/134887427-fb30e575-276b-4f8d-b573-1d68a26b48fc.jpg)
+![val_batch2_labels](https://user-images.githubusercontent.com/62469567/134887453-cc236bbf-c18b-4567-9d8c-dbdf6f9b743c.jpg)
+![val_batch2_pred](https://user-images.githubusercontent.com/62469567/134887470-b0598abc-3c8e-45d0-b02e-74cde2666a66.jpg)
 
 
-# Software
+# Results
+![results](https://user-images.githubusercontent.com/62469567/134887177-09440c1b-0600-48a3-bba8-f7dea11a9a31.png)
+
+
+
+
+
+# VİEW
 
 # LICENSE
 This code is released under the MIT License
