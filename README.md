@@ -27,8 +27,8 @@ Python>=3.6.0 is required with all requirements.txt installed including PyTorch>
 <pre><code>$ pip install -r requirements.txt</code></pre>
 
 ### Inference 
-```import torch
-
+```
+import torch
 # Model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x, custom
 
