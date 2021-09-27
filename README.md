@@ -20,6 +20,38 @@ There are many ways you can contribute to this project.
 - You can share the results of an experiment you ran using these tools.
 - You can let us know if the components in this library help you.
 
+# Install 
+Python>=3.6.0 is required with all requirements.txt installed including PyTorch>=1.7:
+<pre><code>$ git clone https://github.com/ultralytics/yolov5</code></pre>
+<pre><code>$ cd yolov5</code></pre>
+<pre><code>$ pip install -r requirements.txt</code></pre>
+
+### Inference 
+```import torch
+
+# Model
+model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x, custom
+
+# Images
+img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
+
+# Inference
+results = model(img)
+
+# Results
+results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
+```
+
+### Inference with detect.py
+<pre><code>$ python detect.py --source 0  # webcam
+                            file.jpg  # image 
+                            file.mp4  # video
+                            path/  # directory
+                            path/*.jpg  # glob
+                            'https://youtu.be/NUsoVlDFqZg'  # YouTube
+                            'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream</code></pre>
+
 # Software
 
 # LICENSE
+This code is released under the MIT License
