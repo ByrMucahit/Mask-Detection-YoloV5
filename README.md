@@ -50,6 +50,12 @@ results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
                             path/*.jpg  # glob
                             'https://youtu.be/NUsoVlDFqZg'  # YouTube
                             'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream</code></pre>
+ ### Training
+ ![F1_curve](https://user-images.githubusercontent.com/62469567/134886728-2bafb848-39ac-4ed7-b01b-fcfd9c4078c0.png)
+![P_curve](https://user-images.githubusercontent.com/62469567/134886762-785656b7-0344-412a-990a-c3041a742dbe.png)
+![PR_curve](https://user-images.githubusercontent.com/62469567/134886789-8415186d-71ea-430f-b481-6b26e32211da.png)
+![R_curve](https://user-images.githubusercontent.com/62469567/134886817-1e84d987-24a3-4523-93dd-e10609767f0c.png)
+
 
 # Software
 
