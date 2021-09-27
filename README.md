@@ -1,7 +1,7 @@
 ![face_recognition_mask_by_viktoriia_miroshnikovadreamstime com_](https://user-images.githubusercontent.com/62469567/134882192-84d2a479-0dca-42df-bef4-b37fcd9b3e2d.jpg)
 ![tumblr_nu16rpeDrO1ur0lryo1_500](https://user-images.githubusercontent.com/62469567/134882427-bc2f0aef-0d37-430c-8153-cf122573db2e.png)
 
-
+[![python version](https://img.shields.io/badge/Python-3.7.0-blue)](https://docs.python.org/3/) 
 # Mask-Detection
 
 # Description
